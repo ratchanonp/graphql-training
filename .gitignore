@@ -1,6 +1,9 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/node
-# Edit at https://www.toptal.com/developers/gitignore?templates=node
+# Created by https://www.toptal.com/developers/gitignore/api/node,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,dotenv
+
+### dotenv ###
+.env
 
 ### Node ###
 # Logs
@@ -77,7 +80,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
 .env.test
 .env*.local
 
@@ -116,5 +118,4 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# End of https://www.toptal.com/developers/gitignore/api/node
-node_modules
+# End of https://www.toptal.com/developers/gitignore/api/node,dotenv
